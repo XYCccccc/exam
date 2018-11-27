@@ -1,0 +1,32 @@
+#head-xyc a:link{
+color: gray;
+}
+#head-xyc a:visited{
+  color: blue;
+}
+#head-xyc a:hover{
+  color: white;
+}
+#head-xyc{
+  position: relative;
+  height: 40px;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #333;
+  margin-right: auto;
+  margin-left: auto;
+}
+#nav-xyc{
+  color: #b0b0b0;
+  line-height: 40px;
+  display: inline-block;
+  background-color: #333;
+  font-size: 12px;
+}
+.31{
+  color: gray;
+}
+#nav-31{
+  display:inline;
+  margin-left: 500px;
+}
