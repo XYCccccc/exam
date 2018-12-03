@@ -72,5 +72,52 @@ color: gray;
 .xyc-31{
   float: left;
   margin-top: 9px;
-  margin-left:150px;
+  margin-left:125px;
+}
+#search-xyc{
+  position: absolute;
+  position: relative;
+  float: right;
+  margin-top: 35px;
+  margin-right: 300px;
+  height: 48px;
+  line-height: 48px;
+  width: 223px;
+  border: 1px solid #b0b0b0;
+}
+#searchbox-31{
+  position: absolute;
+  margin-left: 223px;
+  display: inline;
+  margin-bottom: 48px;
+  top: 1px;
+}
+.leftbox-xyc{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 125px;
+  line-height: 45px;
+  background-color: #424242;
+  list-style-type: none;
+  padding-left: 50px;
+  width: 200px;
+  height: 460px;
+}
+.leftbox-xyc a:link{
+  color: #b0b0b0;
+  text-decoration: none;
+}
+.leftbox-xyc a:visited{
+  color: white;
+  text-decoration: none;
+}
+.leftbox-xyc a:hover{
+  color: orangered;
+  text-decoration: none;
+}
+#xiaomishouji-31{
+  position: absolute;
+  float: right;
+  margin-top: 50px;
+  margin-left: 375px;
 }
