@@ -3,6 +3,7 @@ body{
   color: #333;
   background-color: #fff;
   min-width: 1226px;
+  align: center;
 }
 #head-xyc a:link{
 color: gray;
@@ -24,19 +25,24 @@ color: gray;
 }
 #nav-xyc{
   color: #b0b0b0;
-  line-height: 35px;
+  line-height: 40px;
   display: inline-block;
   background-color: #333;
   font-size: 12px;
   margin-left:150px;
 }
 #nav-31{
-  display:inline;
+  position: absolute;
+  display: inline-block;
   margin-left: 650px;
+  line-height: 40px;
 }
 #shopping-31{
+  position: relative;
+  float: right;
   display: inline;
   color: #333;
+  margin-right: 90px;
 }
 #shopping-31 a:link{
   color: #b0b0b0;
@@ -75,7 +81,6 @@ color: gray;
   margin-left:125px;
 }
 #search-xyc{
-  position: absolute;
   position: relative;
   float: right;
   margin-top: 35px;
@@ -84,6 +89,7 @@ color: gray;
   line-height: 48px;
   width: 223px;
   border: 1px solid #b0b0b0;
+  outline: none;
 }
 #searchbox-31{
   position: absolute;
@@ -104,7 +110,7 @@ color: gray;
   height: 460px;
 }
 .leftbox-xyc a:link{
-  color: #b0b0b0;
+  color: white;
   text-decoration: none;
 }
 .leftbox-xyc a:visited{
@@ -121,3 +127,12 @@ color: gray;
   margin-top: 50px;
   margin-left: 375px;
 }
+#box-31{
+  position: relative;
+  display: inline-block;
+  margin-top: 513px;
+  margin-left: 350px;
+  letter-spacing: 20px;
+  border-bottom-width: none;
+}
+
