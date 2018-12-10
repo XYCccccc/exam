@@ -3,7 +3,7 @@ body{
   color: #333;
   background-color: #fff;
   min-width: 1226px;
-  align: center;
+  margin: 0px auto;
 }
 #head-xyc a:link{
 color: gray;
@@ -17,6 +17,7 @@ color: gray;
 #head-xyc{
   position: relative;
   height: 40px;
+  width: 2000px;
   font-size: 12px;
   color: #b0b0b0;
   background: #333;
@@ -29,18 +30,20 @@ color: gray;
   display: inline-block;
   background-color: #333;
   font-size: 12px;
-  margin-left:150px;
+  margin-left:125px;
 }
 #nav-31{
   position: absolute;
   display: inline-block;
-  margin-left: 650px;
+  margin-left: 645px;
   line-height: 40px;
 }
 #shopping-31{
-  position: relative;
-  float: right;
-  display: inline;
+  position: absolute;
+  width: 100px;
+  display: inline-block;
+  margin-left: 765px;
+  line-height: 40px;
   color: #333;
   margin-right: 90px;
 }
@@ -75,28 +78,27 @@ color: gray;
 #header-nav-xyc a:hover{
   color: orangered;
 }
+#xiaomi-tubiao{
+  margin-top: 5px;
+}
+#xyc{
+  position: relative;
+  z-index: 20;
+  height: 50px;
+  margin: 0px auto;
+}
+#searchbox{
+  position: absolute;
+  float: right;
+  width: 600px;
+  margin-top: 25px;
+  margin-left: 100px;
+  display: inline-block;
+}
 .xyc-31{
   float: left;
   margin-top: 9px;
   margin-left:125px;
-}
-#search-xyc{
-  position: relative;
-  float: right;
-  margin-top: 35px;
-  margin-right: 300px;
-  height: 48px;
-  line-height: 48px;
-  width: 223px;
-  border: 1px solid #b0b0b0;
-  outline: none;
-}
-#searchbox-31{
-  position: absolute;
-  margin-left: 223px;
-  display: inline;
-  margin-bottom: 48px;
-  top: 1px;
 }
 .leftbox-xyc{
   position: absolute;
@@ -108,6 +110,7 @@ color: gray;
   padding-left: 50px;
   width: 200px;
   height: 460px;
+  background: rgba(0,0,0,0.6)
 }
 .leftbox-xyc a:link{
   color: white;
@@ -130,9 +133,49 @@ color: gray;
 #box-31{
   position: relative;
   display: inline-block;
-  margin-top: 513px;
-  margin-left: 350px;
-  letter-spacing: 20px;
-  border-bottom-width: none;
+  margin-top: 520px;
+  margin-right: 150px;
+  margin-left: 125px;
+  letter-spacing: 18px;
+  width: 2000px;
 }
-
+.title{
+  margin-left: 122px;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+#peijian-xyc{
+  position: relative;
+  height: 58px;
+  -webkit-font-smoothing: antialiased;
+  width: 1226px;
+  display: inline-block;
+}
+#peijian-31{
+  position: absolute;
+  display: inline-block;
+  top: 17px;
+  right: -160px;
+  font-size: 16px;
+}
+.xyc-peijian{
+  font-size: 18px;
+  margin: 15px;
+  float: left;
+  color: #000000;
+}
+.xyc-peijian a:link{
+  color: #000000;
+  text-decoration: none;
+}
+.xyc-peijian a:hover{
+  color: #ff6700;
+  text-decoration: none;
+}
+#peijian-img{
+  position: relative;
+  margin-left: 122px;
+  margin-top: 15px;
+}
