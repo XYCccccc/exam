@@ -1,7 +1,7 @@
 body{
   font-size: 14px;
   color: #333;
-  background-color: #fff;
+  background-color: rgba(238, 234, 234, 0.6);
   min-width: 1000px;
   margin: 0px auto 0px auto;
 }
@@ -175,14 +175,11 @@ color: gray;
 #peijian-img{
   position: relative;
 }
-.lanya{
-  margin-left: 122px;
-  margin-top: 15px;
-}
-.wash{
-  display: block;
-  margin-left: 122px;
-  margin-top: 15px;
+#img-box{
+  float: left;
+  margin:0 120px;
+  min-height: 1px;
+  width: 234px;
 }
 .img-xyc{
   height: 614px;
@@ -193,23 +190,28 @@ color: gray;
   position: relative;
   z-index: 1;
   float: left;
-  width: 234px;
+  width: 200px;
   margin-left: 14px;
   margin-bottom: 14px;
   background: #fff
 }
-.xyc-img .flag{
-  position: absolute;
+#img-box{
+  margin-top: 12px;
+  width: 125px;
+}
+#img-peijian{
+  display: inline-block;
+  width: 978px;
+}
+.flag{
+  position: relative;
   top: 0;
-  left: 50%;
-  z-index: 2;
-  width: 64px;
-  height: 20px;
-  margin-left: -32px;
-  font-size: 12px;
-  line-height: 20px;
-  text-align: center;
-  color: #fff;
+  margin-left: 80px;
+  width: 15px;
+}
+.xyc-img{
+  height: 300px;
+  width: 230px;
 }
 .img-xyc a:link{
   color: black;
@@ -224,4 +226,14 @@ color: gray;
 }
 .title-xyc,.rank-xyc{
   text-align: center;
+  margin-right: 55px;
+}
+.text-xyc{
+  margin-left: 25px;
+}
+.xyc-img-31{
+  position: relative;
+  padding-top: 13px;
+  margin-left: 15px;
+  left: 10px;
 }
