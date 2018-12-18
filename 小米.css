@@ -174,6 +174,7 @@ color: gray;
 }
 #peijian-img{
   position: relative;
+  width: 1500px;
 }
 #img-box{
   float: left;
@@ -196,22 +197,36 @@ color: gray;
   background: #fff
 }
 #img-box{
-  margin-top: 12px;
+  margin-top: 13px;
   width: 125px;
 }
 #img-peijian{
   display: inline-block;
-  width: 978px;
+  width: 980px;
 }
-.flag{
-  position: relative;
-  top: 0;
-  margin-left: 80px;
-  width: 15px;
+.title-xyc{
+  color: orangered;
+}
+.title-xyc-31{
+  color: #b0b0b0;
+}
+.rank-xyc{
+  color: #b0b0b0;
+}
+#flag{
+  position: absolute;
+  background-color: #83c44e;
+  z-index: 5;
+  color: white;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  margin-left:80px;
 }
 .xyc-img{
   height: 300px;
   width: 230px;
+
 }
 .img-xyc a:link{
   color: black;
@@ -227,13 +242,49 @@ color: gray;
 .title-xyc,.rank-xyc{
   text-align: center;
   margin-right: 55px;
+  margin-left: 20px;
 }
 .text-xyc{
-  margin-left: 25px;
+  width: 214px;
+  height: 21px;
+  margin-left: auto;
+  margin-right: -15px;
 }
 .xyc-img-31{
   position: relative;
   padding-top: 13px;
   margin-left: 15px;
   left: 10px;
+}
+#img-31{
+  margin-left: 35px;
+  margin-top: 20px;
+}
+#xyc-31-peijian{
+  position: relative;
+  margin-left: 120px;
+  float: left;
+}
+.title-31{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  width: 1226px;
+  height: 58px;
+  margin-left: 120px;
+}
+#wntj-img{
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 70px;
+  height: 25px;
+  margin-top: 15px;
+  margin-right: -120px;
+}
+#wntj-xyc{
+  width: 1226px;
+  height: 58px;
 }
